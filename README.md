@@ -70,7 +70,7 @@ Below is the script used to read and write the election information that must be
 
 ![](Election_photos/election_file_script.png)
 
-As the easiest, *quickest*, and most scalable method to obtain rapid reading and results of ANY election, this method is sure to be a promising one. 
+As the easiest, *quickest*, and most scalable method to obtain rapid reading and results of ANY election, through a proper .cvs information format and through accurate pathways of the reader and writer files to the script, this method is sure to be a promising one. 
 
 
 Happy Election Counting!
