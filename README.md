@@ -15,7 +15,7 @@ The Colorado Board of Elections employee has given you the following tasks to co
 - Software: Python 3.9.2 , Visual Studio Code, 1.54.3
 
 ### Election-Audit Results 
-The analysis of the election show that: (Include image links)
+The analysis of the election shows that: 
 - There were "369,711" votes cast in the election.
 - The candidates were:
   - Candidate 1: Charles Casper Stockham
@@ -29,7 +29,7 @@ The analysis of the election show that: (Include image links)
   - Candidate 2: Diana Degette, who received "73.8%" of the vote and "272,892" number of votes.
 
 Results are shown here:
-![]Election_photos/election_terminal_results.png
+![](Election_photos/election_terminal_results.png)
 
 
 ## Challenge Summary
@@ -41,23 +41,23 @@ On first glance such an idea might be intimidating, but with a bit of minor twea
 
 1. Make sure that the .csv file containing each ballot is properly formatted. The first three columns should contain the "Ballot ID, County, and Candidate" in that specific order. The code is scalable to any number of candidates and any number of counties *as long as* the .csv files follows that order of information within its columns, as you can see below:
 
-![]Election_photos/election_ballot_format.png
+![](Election_photos/election_ballot_format.png)
 
 
 2. Make sure that the .csv and .txt files are located and identified properly in order to be read and written properly.
 This means that the .txt and .csv files being read and written are placed in the exact same location (with its own name) as its file matching counterparts. In other words, place the .txt file you have in the same location as the current election's .txt file, and place the .csv file in the same location as the current election's .csv file. From there, be sure to adjust the "file_to_load" and "file_to_save" files on lines 9 and 11 to match your new file names. In other words, for those more familiar with python and paths, the paths in the code (as you will see in an example) must align with the location of the reader and text files. From here, the ballot counting and the result writing will take care of itself!
 
 The following photo shows the locations of the reader (.csv) file and the writer (.txt) file in the VS Code.
-![]Election_photos/election_file_location.png
+![](Election_photos/election_file_location.png)
 
 This photo is a visual of the location of the reader (.csv) file:
-![]Election_photos/election_reader_location.png
+![](Election_photos/election_reader_location.png)
 
 This photo is another visual of the location of the writing (.txt) file:
-![]Election_photos/election_writer_location.png
+![](Election_photos/election_writer_location.png)
 
 Below is the script used to read and write the election information that must be updated for new files. As you can see, the path reflections the locations demonstrated above. Best practice to always use the same locations for each new file of its own type and make sure those paths are always reflected in the script:
-![]Election_photos/election_file_script.png
+![](Election_photos/election_file_script.png)
 
 As the easiest and QUICKEST method to obtain quick reading and results of an election, this method is sure to be a promising one. 
 
