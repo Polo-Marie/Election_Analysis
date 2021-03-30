@@ -41,7 +41,7 @@ Results are shown here:
 
 In summary to the Election Audit that we have just performed, the python script provided can easily be modified for the individual who is not well versed with the python program itself in order to obtain the same results. 
 
-On first glance such an idea might be intimidating, but with a bit of minor tweaking, the script can and will work for any election that comes about. To do this, two major items to ensure all things align is:
+On first glance such an idea might be intimidating, but with a bit of minor tweaking, the script can and will work for any election that comes about. To do this, two major items to ensure all things align are:
 
 1. Make sure that the .csv file containing each ballot is properly formatted. 
 
@@ -70,7 +70,7 @@ Below is the script used to read and write the election information that must be
 
 ![](Election_photos/election_file_script.png)
 
-As the easiest, *quickest*, and most scalable method to obtain rapid reading and results of ANY election, through a proper .cvs information format and through accurate pathways of the reader and writer files to the script, this method is sure to be a promising one. 
+As the easiest, *quickest*, and most scalable method to obtain rapid reading and results of ANY election, both through a proper .cvs information format and through accurate pathways of the reader and writer files to the script, this method is sure to be a promising one. 
 
 
 Happy Election Counting!
