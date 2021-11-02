@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Analysis
 Election audit for The Colorado Board of Elections
 
 ## Project Overview 
